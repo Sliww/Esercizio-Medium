@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.logo svg {
+    min-width: 200px;
+}
+
+.navbar {
+    height: 50px;
+    width: 450px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+span {
+    font-family: Helvetica;
+}
+
+.icon-nav {
+    height: 25px;
+    width: 25px;
+}
+
+.icon-lunga {
+    border: 1px solid black;
+    height: 30px;
+    width: 180px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-profilo {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 154, 53);
+}
+
+.icon-profilo svg {
+    height: 25px;
+    width: 25px;
+}
+
+main {
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.prima-sezione {
+    border-right: 1px solid #DDDDDD;
+    height: 500px;
+    width: 63%;
+    display: flex;
+    justify-content: center;
+}
+
+.seconda-sezione {
+    height: 500px;
+    width: 37%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-1 {
+    border: 1px solid black;
+    width: 85%;
+    margin-left: 45px;
+}
+
+.content-2 {
+    border: 1px solid black;
+    width: 75%;
+    margin-left: 45px;
+}
+
+.txt {
+    border-bottom: 1px solid #DDDDDD;
+    height: 90px;
+    padding-top: 60px;
+}
+
+.txt span {
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 20px;
+    padding-left: 6px;
+}
