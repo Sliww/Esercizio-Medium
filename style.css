@@ -33,7 +33,7 @@ header {
     font-size: 15px;
 }
 
-span {
+span, h2, p, h3, a {
     font-family: Helvetica;
 }
 
@@ -75,35 +75,34 @@ main {
 
 .prima-sezione {
     border-right: 1px solid #DDDDDD;
-    height: 500px;
+    height: auto;
     width: 63%;
     display: flex;
     justify-content: center;
 }
 
 .seconda-sezione {
-    height: 500px;
+    height: auto;
     width: 37%;
     display: flex;
     justify-content: flex-start;
 }
 
 .content-1 {
-    border: 1px solid black;
     width: 85%;
     margin-left: 45px;
 }
 
 .content-2 {
-    border: 1px solid black;
+    
     width: 75%;
     margin-left: 45px;
 }
 
 .txt {
     border-bottom: 1px solid #DDDDDD;
-    height: 90px;
-    padding-top: 60px;
+    height: 80px;
+    padding-top: 50px;
 }
 
 .txt span {
@@ -111,4 +110,344 @@ main {
     font-size: 15px;
     margin-right: 20px;
     padding-left: 6px;
+}
+
+.articolo {
+    height: 200px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuore {
+    height: 100%;
+    width: 64%;
+}
+
+.images {
+    height: 80%;
+    width: 33%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-span {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.miniatura {
+    border: 1px solid grey;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.miniatura svg {
+    width: 20px;
+    height: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.end-art {
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sinistra {
+    height: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+
+.destra {
+    display: flex;
+    gap: 10px;
+}
+
+.bookmarks {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinistra span {
+    color: grey;
+    font-size: 11px;
+    
+}
+
+.argomento {
+    height: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(228, 228, 228);
+    margin-right: 3px;
+}
+
+.argomento-2, .argomento-4 {
+    height: 20px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(228, 228, 228);
+    margin-right: 3px; 
+}
+
+.argomento-3 {
+    height: 20px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgb(228, 228, 228);
+    margin-right: 3px; 
+}
+
+.connect {
+    border-bottom: 1px solid #DDDDDD;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.medium-twitter {
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo-twitter {
+    border: 1px solid black;
+    height: 40px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.connect a {
+    color: grey;
+    font-size: 13px;
+}
+
+.medium-twitter span {
+    font-size: 30px;
+    color: grey;
+}
+
+.doppio-logo {
+    height: 30px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doppio-logo-1 {
+    height: 30px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doppio-logo-1 svg {
+    height: 25px;
+}
+
+.doppio-logo-1 a {
+    margin-top: 0;
+}
+
+.logo-twitter a {
+    text-decoration: none;
+}
+
+.recom {
+    
+    height: 260px;
+}
+
+.recom h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.consigliati {
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cons-singoli {
+    height: 45px;
+    width: 100px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cons-singoli-m {
+    height: 45px;
+    width: 70px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cons-singoli, .cons-singoli-m span {
+    font-size: 13px;
+}
+
+.follow {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.follow h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.profilo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotoprofilo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+.nomi {
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.segui {
+    border: 1px solid black;
+    height: 30px;
+    width: 90px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.nomi p {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.recently-saved {
+    height: 320px;
+    margin-top: 70px;
+}
+
+.recently-saved h3 {
+    margin-top:0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recently-saved h2 {
+    font-size: 16px;
+}
+
+.stellina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7px;
+    width: 7px;
+    margin-left: 5px;
+}
+
+.recently-saved a {
+    color: #188115;
+    text-decoration: none;
+}
+
+footer {
+    
+    height: 60px;
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    margin-right: 25px;
+
 }
