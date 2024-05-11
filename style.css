@@ -1,3 +1,14 @@
+/*
+
+INDICE
+
+00 - Header
+01 - Main + struttura 2 sezioni
+02 - Sezione 1 sinistra Articoli
+03 - Sezione 2 destra
+04 - Footer
+*/
+
 * {
     margin:0;
     box-sizing: border-box;
@@ -68,10 +79,18 @@ span, h2, p, h3, a {
     width: 25px;
 }
 
+/*
+01 - Main
+*/
+
 main {
     display: flex;
     background-color: #f5f5f5;
 }
+
+/*
+02 - Sezione 1 sinistra Articoli
+*/
 
 .prima-sezione {
     border-right: 1px solid #DDDDDD;
@@ -87,6 +106,7 @@ main {
     display: flex;
     justify-content: flex-start;
 }
+
 
 .content-1 {
     width: 85%;
@@ -236,6 +256,9 @@ p {
     margin-right: 3px; 
 }
 
+/*
+03 - Sezione 2 destra
+*/
 .connect {
     border-bottom: 1px solid #DDDDDD;
     height: 280px;
@@ -436,18 +459,28 @@ h3 {
     text-decoration: none;
 }
 
+/*
+04 - Footer
+*/
+
 footer {
     
     height: 60px;
     margin-top:20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 
-footer a {
+footer ul a {
     text-decoration: none;
     color: rgb(100, 100, 100);
     margin-right: 25px;
+}
 
+footer li {
+    list-style: none;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
 }
